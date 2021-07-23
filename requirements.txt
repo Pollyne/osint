@@ -3,3 +3,5 @@ termcolor>=1.1.0
 argparse>=1.4.0
 phonenumbers>=8.12.28
 colorama>=0.4.1
+requests-futures>=1.0.0
+futures>=3.3.0 

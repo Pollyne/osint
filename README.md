@@ -109,6 +109,62 @@ optional arguments:
   <img src="https://github.com/Pollyne/osint/blob/main/imagens/numberverify_output.png?raw=true">
 </p>
 
+# usernamesearch - Busca pelo username em diversos sites 
+
+## Sobre usernamesearch
+Script simples que busca pelo username em diversos sites predefinidos em resources/data.json (Lista completa em sites.md). 
+
+Foi rescrito baseado no projeto: https://github.com/sherlock-project/sherlock
+
+## Uso 
+
+Example 1: ``python3 usernamesearch.py pollynezunino``<br/>
+Example 2: ``python3 usernamesearch.py pollynezunino --print-all``<br/>
+Example 3: ``python3 usernamesearch.py pollynezunino --version``<br/>
+Example 4: ``python3 usernamesearch.py pollynezunino --verbose``<br/>
+Example 5: ``python3 usernamesearch.py pollynezunino --site instagram``<br/>
+
+## Menu
+```
+
+        ¨ ¨ ¨ ¨ ¨ ¨ ¨▲.︵.▲
+        ¨ ¨ ¨ ¨ ¨ ¨ ¨◄ƒ░░ 0 }…..︵.
+        ¨ ¨ ¨ ¨ ¨ ¨◄ƒ░░░░░░ o”)
+        ¨ ¨ ¨ ¨ ¨ ◄ƒ░░░(────.·^”’
+        ¨ ¨ ¨ ¨ ¨ ◄ƒ░░░§ ´
+        )\¨ ¨ ¨ ¨ ◄ƒ░░░░§ ¨ ¨ ¨✺✺✺
+        ) \ ¨ ¨ ¨◄ƒ░░░░░§¨ ¨ ¨\|//✺
+        );;\ ¨ ¨ ◄ƒ░.︵.░░░§__(((
+        );;;\¨ ¨◄ƒ░(░░)\______//
+        );;;;\¨◄ƒ░░░░░░__//
+        );;;;;\◄ƒ░░░░░░░░§
+        );;;;;;;\░░░░░░░░░(((
+        Developed By: Pollyne Zunino
+        https://github.com/Pollyne      
+            
+usage: usernamesearch.py [-h] [--version] [--verbose] [--output OUTPUT] [--site SITE_NAME] [--print-all] [--local] USERNAMES [USERNAMES ...]
+
+Buscando username em sites (Version 0.0.1)
+
+positional arguments:
+  USERNAMES
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --verbose, -v, -d, --debug
+  --output OUTPUT, -o OUTPUT
+  --site SITE_NAME
+  --print-all
+  --local, -l
+
+```
+
+## Visual
+<p align="center">
+  <img src="https://github.com/Pollyne/osint/blob/main/imagens/username_search.png?raw=true">
+</p>
+
 ## Ethical Notice
 O desenvolvedor deste programa, Pollyne Zunino, não é responsável pelo uso indevido desta ferramenta de coleta de dados. Não use o darksearch para navegar em sites que participam de qualquer atividade identificada como ilegal de acordo com as leis e regulamentos de seu governo.
 
