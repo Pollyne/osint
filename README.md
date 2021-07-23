@@ -1,5 +1,5 @@
 # OSINT
-Ferramentas de Osint rescritas ou desenvolvidas do zero
+Ferramentas de Osint
 
 ## Instalação
 1) ``git clone https://github.com/Pollyne/osint.git``<br/>
@@ -11,7 +11,7 @@ Ferramentas de Osint rescritas ou desenvolvidas do zero
 ## Sobre Darksearch
 Darksearch é um script simples escrito em python 3 onde o usuario pode realizar queries na deepweb via terminal usando a API darksearch.io. 
 
-Foi rescrito baseado no projeto: https://github.com/josh0xA/darkdump
+Baseado no projeto: https://github.com/josh0xA/darkdump
 
 ## Uso 
 Example 1: ``python3 darksearch.py -h``<br/>
@@ -57,7 +57,7 @@ optional arguments:
 ## Sobre numberverify
 numberverify é um script simples escrito em python 3 onde o usuario pode realizar buscas sobre um determinado numero de telefone via terminal usando a API numberverify (https://numverify.com/dashboard)
 
-Foi rescrito baseado no projeto: https://github.com/sundowndev/phoneinfoga
+Baseado no projeto: https://github.com/sundowndev/phoneinfoga
 
 ## configuração de chave para API
 
@@ -114,7 +114,7 @@ optional arguments:
 ## Sobre usernamesearch
 Script simples que busca pelo username em diversos sites predefinidos em resources/data.json (Lista completa em sites.md). 
 
-Foi rescrito baseado no projeto: https://github.com/sherlock-project/sherlock
+Baseado no projeto: https://github.com/sherlock-project/sherlock
 
 ## Uso 
 
