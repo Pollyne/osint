@@ -9,7 +9,7 @@ Ferramentas de Osint rescritas ou desenvolvidas do zero
 # DarkSearch - Buscas na deepweb em seu terminal 
 
 ## Sobre Darksearch
-Darksearch é um script simples escrito em python 3 onde o usuario pode realizar querys na deepweb via terminal usando a API darksearch.io. 
+Darksearch é um script simples escrito em python 3 onde o usuario pode realizar queries na deepweb via terminal usando a API darksearch.io. 
 
 Foi rescrito baseado no projeto: https://github.com/josh0xA/darkdump
 
