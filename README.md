@@ -1,18 +1,17 @@
 # OSINT
 Ferramentas de Osint rescritas ou desenvolvidas do zero
 
-## DarkSearch - Buscas na deepweb em seu terminal 
-
-## Sobre Darksearch
-Darksearch é um script simples escrito em python 3.8 onde o usuario pode realizar querys na deepweb via terminal usando a API darksearch.io. 
-
-Foi rescrito baseado no projeto: https://github.com/josh0xA/darkdump
-
 ## Instalação
 1) ``git clone https://github.com/Pollyne/osint.git``<br/>
 2) ``cd osint``<br/>
 3) ``python3 -m pip install -r requirements.txt``<br/>
-4) ``python3 darksearch.py --help``<br/>
+
+# DarkSearch - Buscas na deepweb em seu terminal 
+
+## Sobre Darksearch
+Darksearch é um script simples escrito em python 3 onde o usuario pode realizar querys na deepweb via terminal usando a API darksearch.io. 
+
+Foi rescrito baseado no projeto: https://github.com/josh0xA/darkdump
 
 ## Uso 
 Example 1: ``python3 darksearch.py -h``<br/>
@@ -51,6 +50,63 @@ optional arguments:
 ## Visual
 <p align="center">
   <img src="https://github.com/Pollyne/osint/blob/main/imagens/darksearch_output.png?raw=true">
+</p>
+
+# numberverify - Informações de um número de telefone baseado na API numberverify
+
+## Sobre numberverify
+numberverify é um script simples escrito em python 3 onde o usuario pode realizar buscas sobre um determinado numero de telefone via terminal usando a API numberverify (https://numverify.com/dashboard)
+
+Foi rescrito baseado no projeto: https://github.com/sundowndev/phoneinfoga
+
+## configuração de chave para API
+
+Criar um regristro grátis no site (https://numverify.com/) em (https://numverify.com/dashboard) copiar a Chave para a API 
+
+<p align="center">
+  <img src="https://github.com/Pollyne/osint/blob/main/imagens/chave_api.png?raw=true">
+</p>
+
+Colocar sua CHAVE no local indicado: (access_key="CHAVE_API_AQUI")
+
+<p align="center">
+  <img src="https://github.com/Pollyne/osint/blob/main/imagens/chave_api.png?raw=true">
+</p>
+
+## Uso 
+Example 1: ``python3 numberverify.py -h``<br/>
+Example 2: ``python3 numberverify.py -n +5585988405936``<br/>
+
+## Menu
+```
+
+        ¨ ¨ ¨ ¨ ¨ ¨ ¨▲.︵.▲
+        ¨ ¨ ¨ ¨ ¨ ¨ ¨◄ƒ░░ 0 }…..︵.
+        ¨ ¨ ¨ ¨ ¨ ¨◄ƒ░░░░░░ o”)
+        ¨ ¨ ¨ ¨ ¨ ◄ƒ░░░(────.·^”’
+        ¨ ¨ ¨ ¨ ¨ ◄ƒ░░░§ ´
+        )\¨ ¨ ¨ ¨ ◄ƒ░░░░§ ¨ ¨ ¨✺✺✺
+        ) \ ¨ ¨ ¨◄ƒ░░░░░§¨ ¨ ¨\|//✺
+        );;\ ¨ ¨ ◄ƒ░.︵.░░░§__(((
+        );;;\¨ ¨◄ƒ░(░░)\______//
+        );;;;\¨◄ƒ░░░░░░__//
+        );;;;;\◄ƒ░░░░░░░░§
+        );;;;;;;\░░░░░░░░░(((
+        Developed By: Pollyne Zunino
+        https://github.com/Pollyne      
+            
+usage: numberverify.py [-h] [-n number] [-o output]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -n number, --number number
+  -o output, --output output
+
+```
+
+## Visual
+<p align="center">
+  <img src="https://github.com/Pollyne/osint/blob/main/imagens/numberverify_output.png?raw=true">
 </p>
 
 ## Ethical Notice

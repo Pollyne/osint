@@ -12,7 +12,9 @@ from phonenumbers import timezone
 
 parser = argparse.ArgumentParser(prog='numberverify.py')
 parser.add_argument('-n', '--number', metavar='number', type=str)
-parser.add_argument('-o', '--output', metavar="output_file", type=argparse.FileType('w'))
+parser.add_argument('-o', '--output', metavar="output", type=argparse.FileType('w'))
+bn = Banner()
+bn.LoadBanner()
 args = parser.parse_args()
 
 scanners = ['any', 'all', 'numverify']
@@ -73,7 +75,7 @@ def numverifyScan():
 
     print('\n' + code_info + 'Running Numverify.com scan...')
 
-    access_key="CHAVE_API_NUMBERVERIFY"
+    access_key="CHAVE_API_AQUI"
     response = requests.request("GET", "http://apilayer.net/api/validate?access_key={}&number={}".format(access_key, number), data="")
 
     if response.content == "Unauthorized" or response.status_code != 200:
@@ -100,8 +102,6 @@ def numverifyScan():
         print((code_warning + "This is most likely a mobile number, but it can still be a VoIP number."))
 
 def scanNumber(InputNumber):
-    bn = Banner()
-    bn.LoadBanner()
     print(code_title + "[!] ---- Fetching informations for {} ---- [!]".format(formatNumber(InputNumber)))
 
     localScan(InputNumber)
