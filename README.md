@@ -64,7 +64,7 @@ Foi rescrito baseado no projeto: https://github.com/sundowndev/phoneinfoga
 Criar um regristro grátis no site (https://numverify.com/) em (https://numverify.com/dashboard) copiar a Chave para a API 
 
 <p align="center">
-  <img src="https://github.com/Pollyne/osint/blob/main/imagens/chave_api.png?raw=true">
+  <img src="https://github.com/Pollyne/osint/blob/main/imagens/chave_numberverify.png?raw=true">
 </p>
 
 Colocar sua CHAVE no local indicado: (access_key="CHAVE_API_AQUI")
